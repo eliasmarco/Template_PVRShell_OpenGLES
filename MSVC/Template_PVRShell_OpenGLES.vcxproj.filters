@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="source\painter.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particlesystem.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Shell\PVRShell.cpp">
+      <Filter>PVRShell</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Shell\API\KEGL\PVRShellAPI.cpp">
+      <Filter>PVRShell</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Shell\OS\Windows\PVRShellOS.cpp">
+      <Filter>PVRShell</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lodepng.cpp">
+      <Filter>Resources\LodePNG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\painter.hpp">
+      <Filter>Source Code</Filter>
+    </ClInclude>
+    <ClInclude Include="source\particlesystem.hpp">
+      <Filter>Source Code</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Shell\PVRShell.h">
+      <Filter>PVRShell</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Shell\API\KEGL\PVRShellAPI.h">
+      <Filter>PVRShell</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Shell\PVRShellImpl.h">
+      <Filter>PVRShell</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Shell\OS\Windows\PVRShellOS.h">
+      <Filter>PVRShell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\DevTools\SDK\PowerVR_Graphics\PowerVR_SDK\SDK_3.4\Builds\Windows\Resources\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lodepng.h">
+      <Filter>Resources\LodePNG</Filter>
+    </ClInclude>
+    <ClInclude Include="source\modeldata.h">
+      <Filter>Resources\ModelData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{dc340274-c85a-437f-bbf1-540e7d790a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{97fb2f16-5585-4047-acad-76fb1ac13977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PVRShell">
+      <UniqueIdentifier>{20d0f699-21d8-42bf-8444-04e78c626248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\LodePNG">
+      <UniqueIdentifier>{ca4c5288-1b78-43f9-8a07-b5aadeb7d780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ModelData">
+      <UniqueIdentifier>{eacd1417-67df-4081-8b75-6318ce99a671}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\DevTools\SDK\PowerVR_Graphics\PowerVR_SDK\SDK_3.4\Builds\Windows\Resources\shared.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
